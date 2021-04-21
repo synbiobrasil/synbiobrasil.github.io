@@ -1,0 +1,68 @@
+/* CSS Index file 
+ *
+ *      Blocks of HTML styled
+ *      - Global
+ *      - Navbar
+ *      - Logo
+ *      - Description
+ *
+ * */
+
+/* GLOBAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Libre+Franklin&display=swap');
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, #16A085, #F4D03F);
+}
+
+/* NAVBAR STYLES */
+.navbarBox {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagesBox {
+    display: flex;
+}
+
+.page {
+    margin: 0 10px;
+    font-family: "Libre Franklin";
+    font-weight: 100;
+    color: #ffffff
+}
+
+/* LOGO STYLES */
+
+.logoBox {
+    margin-top: 6.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 64%;
+}
+
+/* DESCRIPTION STYLES */
+
+.descriptionBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 57%;
+    font-family: "Libre Franklin";
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    margin-top: -50px;
+}
