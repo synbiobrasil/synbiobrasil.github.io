@@ -1,43 +1,10 @@
 /* CSS Index file 
  *
  *      Blocks of HTML styled
- *      - Global
- *      - Navbar
  *      - Logo
  *      - Description
  *
  * */
-
-/* GLOBAL STYLES */
-@import url('https://fonts.googleapis.com/css2?family=Changa&family=Libre+Franklin&display=swap');
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    background: linear-gradient(to right, #16A085, #F4D03F);
-}
-
-/* NAVBAR STYLES */
-.navbarBox {
-    height: 7%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.pagesBox {
-    display: flex;
-    align-items: center;
-    margin: 0 10px;
-}
-
-.page {
-    margin: 0 10px;
-    font-family: "Libre Franklin";
-    font-weight: 100;
-    color: #ffffff
-}
 
 /* LOGO STYLES */
 
@@ -67,6 +34,6 @@ body {
     font-family: "Libre Franklin";
     font-size: 26px;
     text-align: center;
-    color: white;
-    margin-top: -6%;
+    color: #F7F7F7;
+    margin-top: -5%;
 }
