@@ -15,18 +15,21 @@ html {
 }
 
 body {
+    height: 100%;
     background: linear-gradient(to right, #16A085, #F4D03F);
 }
 
 /* NAVBAR STYLES */
 .navbarBox {
-    margin: 2%;
+    height: 7%;
     display: flex;
     justify-content: space-between;
 }
 
 .pagesBox {
     display: flex;
+    align-items: center;
+    margin: 0 10px;
 }
 
 .page {
@@ -39,7 +42,7 @@ body {
 /* LOGO STYLES */
 
 .logoBox {
-    margin-top: 6.2%;
+    height: 92%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,6 +51,7 @@ body {
 
 .logo {
     width: 64%;
+    margin-top: -4%;
 }
 
 /* DESCRIPTION STYLES */
@@ -64,5 +68,5 @@ body {
     font-size: 26px;
     text-align: center;
     color: white;
-    margin-top: -50px;
+    margin-top: -6%;
 }
