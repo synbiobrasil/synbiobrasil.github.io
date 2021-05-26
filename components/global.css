@@ -1,12 +1,17 @@
 /* GLOBAL STYLES */
 @import url('https://fonts.googleapis.com/css2?family=Changa&family=Libre+Franklin&display=swap');
+
+@font-face {
+    font-family: GlacialIndifference;
+    src: url("glacial-indifference.regular.otf") format("opentype");
+}
+
 html {
     height: 100%;
 }
 
 body {
     height: 100%;
-    background: linear-gradient(to right, #16A085, #F4D03F);
 }
 
 a, a:hover, a:focus, a:active {

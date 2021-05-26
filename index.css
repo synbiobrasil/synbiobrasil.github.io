@@ -5,35 +5,25 @@
  *      - Description
  *
  * */
+#main {
+    height: 89%;
+}
 
-/* LOGO STYLES */
-
-.logoBox {
-    height: 92%;
+#titleBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-.logo {
-    width: 64%;
-    margin-top: -4%;
+#title {
+    width: 62%;
 }
 
-/* DESCRIPTION STYLES */
-
-.descriptionBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.description {
-    width: 57%;
-    font-family: "Libre Franklin";
-    font-size: 26px;
+#subtitle {
+    font-family: "GlacialIndifference";
+    font-size: 28px;
+    width: 42%;
     text-align: center;
-    color: #F7F7F7;
-    margin-top: -5%;
 }

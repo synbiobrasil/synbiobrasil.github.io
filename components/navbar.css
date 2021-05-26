@@ -1,19 +1,39 @@
 /* NAVBAR STYLES */
-.navbarBox {
-    height: 7%;
+#navbarBox {
+    height: 11%;
     display: flex;
+    border-bottom: 0.1rem solid black;
     justify-content: space-between;
 }
 
-.pagesBox {
+#name {
+    width: 20%;
+    padding: 0.8rem;
+    font-family: 'GlacialIndifference';
+    font-size: 15px;
+    text-align: center;
+    border-right: 0.1rem solid black;
+}
+
+#pages {
+    width: 60%;    
     display: flex;
-    align-items: center;
-    margin: 0 10px;
+    text-align: center;
+    justify-content: flex-end;
+    margin-right: 1rem;
 }
 
 .page {
-    margin: 0 10px;
-    font-family: "Libre Franklin";
-    font-weight: 100;
-    color: #F7F7F7
+    font-family: 'GlacialIndifference';
+    font-size: 20px;
+    padding: 15px;
+}
+
+#selected {
+    color: #ffc229;
+}
+
+#marked {
+    padding: 0 0.3rem;
+    background-color: #ffc229;
 }
