@@ -18,7 +18,7 @@
 #pages {
     width: 60%;    
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: flex-end;
     margin-right: 1rem;
 }
@@ -36,4 +36,5 @@
 #marked {
     padding: 0 0.3rem;
     background-color: #ffc229;
+    min-width: 60px;
 }

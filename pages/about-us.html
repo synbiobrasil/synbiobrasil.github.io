@@ -2,42 +2,189 @@
 <html>
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <link rel="stylesheet" href="about-us.css"> 
+        <link rel="stylesheet" href="about-us.css">
         <link rel="stylesheet" href="../components/global.css">
-        <link rel="stylesheet" href="../components/navbar.css"> 
+        <link rel="stylesheet" href="../components/navbar.css">
     </head>
     </head>
     <body>
-       <!-- Navbar -->
-
-        <div class="navbarBox">
-            <div class="nameIcon"></div>
-            <div class="pagesBox">
-                <div class="page"><a href="../index.html">HOME</a></div>
-                <div class="page"><a href="pages/about-us.html">ABOUT US</a></div>
-                <div class="page">EVENTS</div>
-                <div class="page">BLOG</div>
-                <div class="page">RESOURCES</div>
-                <div class="page">COMMUNITY</div>
+        <!-- Navbar --> 
+        <div id="navbarBox">
+            <div id="name">BRAZILIAN ASSOCIATION OF SYNTHETIC BIOLOGY</div>
+            <div id="pages">
+                <div class="page"><a href="../index.html">home</a></div>
+                <div id="selected" class="page">about us</div>
+                <div class="page">resources</div>
+                <div class="page"><a href="./events.html">events</a></div>
+                <div class="page">blog</div>
+                <div class="page">contact us</div>
+                <div class="page"><div id="marked">join us</div></div>
             </div>
         </div>
- 
-        <!-- About us Page -->
-        <div class="block">
-	    <div class="main">
-		    <div class="titleBox">
-			    <div class="title">About Us!</div>
-		    </div>
-		    <div class="contentBox">
-			    <div class="textBox">
-				    <div class="paragraphs">We are a network of enthusiasts, dreamers, scientists, entrepreneurs and leaders who believe in the potential of Brazilian synthetic biology to transform the academy and industry - being a pioneering force in the world.</div>			
-				    <div class="paragraphs">We share the inspiration of using synthetic biology to build solutions to complex global challenges. Hence, we believe that the intersection between engineering principles and the power of national biodivertisity and bioeconomics will be the gear that will revolutionize the Brazilian industry over the coming years.</div>			
-				    <div class="paragraphs">To develop Brazilian technologies and resources at the frontier of knowledge.</div>			
-			    </div>
-			    <div class="imageBox">
+        
+        <!-- Main -->
 
-			    </div>
-		    </div>
-	    </div>
+        <div id="main">
+            
+            <div id="boxTitle">
+                <img id="image" src="../public/x-typing-removebg.png" alt="title" />
+                <div id="title">ABOUT US</div>
+            </div>
+
+            <div id="contentBox">
+                <div id="lateralBar">
+                    <p>ABOUT US</p>
+                    <div id="lateralImg"><img src="../public/x-lateral.png" /></div>
+                    <div class="spacer"></div>
+                    <p>WHO WE ARE</p>
+                    <div id="lateralImg"><img src="../public/x-lateral.png" /></div>
+                    <div class="spacer"></div>
+                    <p>CORE VALUES</p>
+                    <div id="lateralImg"><img src="../public/x-lateral.png" /></div>
+                    <div class="spacer"></div>
+                    <p>EXECUTIVE COMMITTEE</p>
+                    <div id="lateralImg"><img src="../public/x-lateral.png" /></div>
+                </div>
+                
+                <div class="textGrid">
+                <div class="textBox">
+                    <div id="text">We are a network of enthusiasts, dreamers, scientists, entrepreneurs and leaders who believe in the potential of Brazilian synthetic biology to transform the academy and industry - being a pioneering force in the world.</div> 
+                </div>
+                <div class="textBox">
+                    <div id="textCenter">We share the inspiration of using synthetic biology to build solutions to complex global challenges. Hence, we believe that the intersection between engineering principles and the power of national biodiversity and bioeconomics will be the gear that will revolutionize the brazilian industry and academia over the coming years.</div>
+                </div>
+
+                <div id="space-core-values" class="textBox">
+                    <div class="iconsRow">
+                        <div id="iconColumn">
+                            <img id="iconImg" src="../public/connect-icon.png" />
+                            <div class="titleIcon blue" >TO CONNECT</div>
+                            <div id="textIcon">is to accelerate innovation, linking ideas with tools to build reality</div>
+                        </div>
+                        <div id="iconColumn">
+                            <img id="iconImg" src="../public/idea-icon.png" />
+                            <div class="titleIcon yellow">TO REVOLUTIONIZE</div>
+                            <div id="textIcon">is to believe in our national power and to break paradigms</div>
+                        </div>
+                        <div id="iconColumn">
+                            <img id="iconImg" src="../public/revolution-icon.png" />
+                            <div class="titleIcon green">TO EMPOWER</div>
+                            <div id="textIcon">is to democratize and encourage synthetic biology, inspiring new talents</div>
+                        </div>
+                    </div>
+                    <div id="textWithoutIcon">to develop Brazilian technologies and resources at the frontiers of knowledge</div>
+                </div>
+
+                <div class="textBox" id="space-committee">
+                    <div class="iconsRow">
+                        <div id="iconColumn">
+                            <img class="face-icon" src="../public/committe/cibele-photo.png" />
+                            <div id="title-name" class="titleIcon blue">CIBELE ZOLNIER</div>
+                            <div class="description">Biochemical Engineering Undergraduate at USP | Coordinator at After iGEM | E-mail: cibele.nascimento@usp.br</div>
+                            <div class="social-networks">
+                                <div><img class="social-icons" src="../public/icons/instagram-icon.png"/></div>
+                                <div><img class="social-icons" src="../public/icons/linkedin-icon.png" /></div>
+                                <div><img class="social-icons" src="../public/icons/twitter-icon.png" /></div>
+                            </div>
+                        </div>
+                        <div id="iconColumn">
+                            <img class="face-icon" src="../public/committe/isis-photo.png" />
+                            <div id="title-name" class="titleIcon yellow">ISIS BOTELHO</div>
+                            <div class="description">Bioprocess Engineering Undergraduate at UFRJ | Director of Serologic Diagnostics Sector at Osiris Rio UFRJ | E-mail: isisbotelho@eq.ufrj.br</div>
+                           <div class="social-networks">
+                                <div><img class="social-icons" src="../public/icons/instagram-icon.png"/></div>
+                                <div><img class="social-icons" src="../public/icons/linkedin-icon.png" /></div>
+                                <div><img class="social-icons" src="../public/icons/twitter-icon.png" /></div>
+                            </div> 
+                        </div>
+                        <div id="iconColumn">
+                            <img class="face-icon" src="../public/committe/giovanna-photo.png" />
+                            <div id="title-name" class="titleIcon green">GIOVANNA MAKLOUF</div>
+                            <div class="description">Biotechnologist | Bioinformatics MSc student at Brazilian National Cancer Institute | Instructor at SynBio Amazonas | E-mail: giomaklouf@gmail.com</div>
+                            <div class="social-networks">
+                                <div><img class="social-icons" src="../public/icons/instagram-icon.png"/></div>
+                                <div><img class="social-icons" src="../public/icons/linkedin-icon.png" /></div>
+                                <div><img class="social-icons" src="../public/icons/twitter-icon.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="space-between-rowfaces" class="iconsRow">
+                        <div id="iconColumn">
+                            <img class="face-icon" src="../public/committe/heloisa-photo.png" />
+                            <div id="title-name" class="titleIcon blue">HELOÍSA OS BOLL</div>
+                            <div class="description">Biotechnology Undergraduate at UnB | SynBio Lab UnB | After iGEM E-mail: heloisaboll@yahoo.com.br
+                            </div>
+                            <div class="social-networks">
+                                <div><img class="social-icons" src="../public/icons/instagram-icon.png"/></div>
+                                <div><img class="social-icons" src="../public/icons/linkedin-icon.png" /></div>
+                                <div><img class="social-icons" src="../public/icons/twitter-icon.png" /></div>
+                            </div>
+                        </div>
+                        <div id="iconColumn">
+                            <img class="face-icon" src="../public/committe/joao-photo.png" />
+                            <div id="title-name" class="titleIcon yellow">JOÃO PEDRO PRESTES</div>
+                            <div class="description">Bioprocess and Biotechnology Engineering undergraduate at UTFPR | Co-founder of the CONACOM competition - Email: joao.pedro.vp@hotmail.com</div>
+                            <div class="social-networks">
+                                <div><img class="social-icons" src="../public/icons/instagram-icon.png"/></div>
+                                <div><img class="social-icons" src="../public/icons/linkedin-icon.png" /></div>
+                                <div><img class="social-icons" src="../public/icons/twitter-icon.png" /></div>
+                            </div> 
+                        </div>
+                        <div id="iconColumn">
+                            <img class="face-icon" src="../public/committe/jimmy-photo.png" />
+                            <div id="title-name" class="titleIcon green">JIMMY HAYDEN-LINHARES</div>
+                            <div class="description">Biotechnology Undergraduate at UFAM | SynBio Amazonas E-MAIL: haydenlinhars@gmail.com
+                            </div>
+                            <div class="social-networks">
+                                <div><img class="social-icons" src="../public/icons/instagram-icon.png"/></div>
+                                <div><img class="social-icons" src="../public/icons/linkedin-icon.png" /></div>
+                                <div><img class="social-icons" src="../public/icons/twitter-icon.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="space-between-rowfaces" class="iconsRow">
+                        <div id="iconColumn">
+                            <img class="face-icon" src="../public/committe/luiza-photo.png" />
+                            <div id="title-name" class="titleIcon blue">LUIZA ZUCCHI HESKETH</div>
+                            <div class="description">Biological Sciences Undergraduate at UNICAMP| Paleoclimatology researcher at Geosciences Laboratory - Email: luuhgomes98@gmail.com</div>
+                            <div class="social-networks">
+                                <div><img class="social-icons" src="../public/icons/instagram-icon.png"/></div>
+                                <div><img class="social-icons" src="../public/icons/linkedin-icon.png" /></div>
+                                <div><img class="social-icons" src="../public/icons/twitter-icon.png" /></div>
+                            </div>
+                        </div>
+                        <div id="iconColumn">
+                            <img class="face-icon" src="../public/committe/maria-photo.png" />
+                            <div id="title-name" class="titleIcon yellow">MARIA ASTOLFI</div>
+                            <div class="description">Strain Engineer, Ginkgo Bioworks | Coordinator, iGEM Design | Co-founder, SynBio Amazonas Brazil - E-mail: mctastolfi@gmail.com</div>
+                            <div class="social-networks">
+                                <div><img class="social-icons" src="../public/icons/instagram-icon.png"/></div>
+                                <div><img class="social-icons" src="../public/icons/linkedin-icon.png" /></div>
+                                <div><img class="social-icons" src="../public/icons/twitter-icon.png" /></div>
+                            </div> 
+                        </div>
+                        <div id="iconColumn">
+                            <img class="face-icon" src="../public/committe/yala-photo.png" />
+                            <div id="title-name" class="titleIcon green">YALA SAMPAIO</div>
+                            <div class="description">Biomedical Science Undergraduate at UFMG | Co-founder SynBio Club at UFMG - E-mail: yala-sampaio@ufmg.br</div>
+                            <div class="social-networks">
+                                <div><img class="social-icons" src="../public/icons/instagram-icon.png"/></div>
+                                <div><img class="social-icons" src="../public/icons/linkedin-icon.png" /></div>
+                                <div><img class="social-icons" src="../public/icons/twitter-icon.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                 
+
+
+
+            </div> 
+        </div>
+
     </body>
 </html>
