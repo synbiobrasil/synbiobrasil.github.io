@@ -1,0 +1,15 @@
+.under-construction {
+    height: 11rem;
+    margin-top: 12rem;
+    margin-right: 3rem;
+}
+
+#box-under-construction {
+    justify-content: space-between;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+}
+
