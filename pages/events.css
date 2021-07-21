@@ -392,3 +392,17 @@ tbody {
 .spacer-top {
     margin-top: 1rem;
 }
+
+.event-description {
+    font-size: 1.4rem;
+    font-family: 'GlacialIndifference';
+    margin-top: 3rem;
+}
+
+.first-paragraph {
+    margin-bottom: 1rem;
+}
+
+.second-paragraph {
+    margin-bottom: 2rem;
+}
