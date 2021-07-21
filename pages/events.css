@@ -286,3 +286,109 @@
     font-weight: 800;
     color: #2e2e2e;
 }
+
+
+.table-title {
+    font-family: "GlacialIndifference";
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.w-full {
+    width: 98%;
+}
+.table-auto {
+    table-layout: auto;
+}
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.border-4 {
+    border-width: 4px;
+}
+.border-green-500 {
+    --tw-border-opacity: 1;
+    border-color: #13BA3E;
+}
+
+.bg-green-500 {
+    --tw-bg-opacity: 1;
+    background-color: #13BA3E;
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.text-center {
+    text-align: center;
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table {
+    text-indent: 0;
+    border-color: inherit;
+}
+
+* {
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+}
+
+tbody {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 4px;
+}
+
+.two-tables {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.whitespace {
+    text-align: center;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+.table-box {
+    width: 100%;
+}
+
+.spacer-top {
+    margin-top: 1rem;
+}
