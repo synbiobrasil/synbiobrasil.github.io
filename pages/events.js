@@ -3,7 +3,7 @@ var hoursElement = document.getElementById("hours");
 var minutesElement = document.getElementById("minutes");
 var secondsElement = document.getElementById("seconds");
 
-var countDownDate = new Date("Jul 23, 2021 21:17:00").getTime();
+var countDownDate = new Date("Jul 24, 2021 08:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
