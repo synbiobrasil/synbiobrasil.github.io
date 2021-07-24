@@ -27,7 +27,7 @@
     border-bottom: 0.1rem solid black;
     border-top: 0.1rem solid black;
     border-radius: 0.3rem;
-    height: 300rem;
+    height: 325rem;
     width: 7rem;
     display: flex;
     flex-direction: column;
@@ -207,7 +207,7 @@
 }
 
 .spacer {
-    margin-top: 155rem;
+    margin-top: 173rem;
 }
 
 .blue {
