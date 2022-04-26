@@ -394,7 +394,7 @@ tbody {
 }
 
 .event-description {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-family: 'GlacialIndifference';
     margin-top: 3rem;
 }
@@ -405,4 +405,27 @@ tbody {
 
 .second-paragraph {
     margin-bottom: 2rem;
+}
+
+.event-box {
+  display: flex;
+}
+
+.event-img {
+  height: 35rem;
+}
+
+.event-description {
+  width: 50%;
+}
+
+.spacer {
+  margin-top: 1rem;
+}
+
+.event-soon {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  font-weight: 800;
 }
